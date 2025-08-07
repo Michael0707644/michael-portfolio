@@ -1,0 +1,191 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rucker's Steakhouse</title>
+    <style>
+        body {
+            background-image: url('images/pexels-minan1398-1482803.jpg');
+            background-size: cover; /* Makes the image cover the entire background */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            background-position: center center; /* Centers the image */
+            background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+        }
+    </style>
+</body>
+</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rucker’s</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, Sans-Serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: red;
+        }
+        header p {
+            margin: 5px 0 0;
+        }
+        section {
+            text-align: center;
+            padding: 20px;
+        }
+        h2 {
+            font-size: 1.8em;
+            font-style: italic;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rucker’s</h1>
+        <p><i>The best steak in Scottsdale!</i></p>
+        <p>555 Mountainview Ave., Scottsdale, AZ 85260 | (602) 789-5672</p>
+    </header>
+    <section>
+
+<p style="color: white;">Welcome to Rucker’s, which has been voted <B>Best Steakhouse</B> in Scottsdale four years running! At Rucker’s, you can enjoy a quality steak, amazing wine, and a quiet atmosphere in a mountain-themed restaurant. Rucker’s has been a tradition in Scottsdale since 1975 and is an amazing place to dine.</p>
+    </section>
+</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, Helvetica, Sans-Serif; }
+        header { background-color: #333; color: #fff; text-align: center; padding: 10px; }
+        header p { margin: 0; }
+        nav ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333; }
+        nav ul li { float: left; }
+        nav ul li a { display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; }
+        nav ul li a:hover { background-color: #111; }
+        section { padding: 20px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.htm">Home</a></li>
+            <li><a href="menu.htm">Menu</a></li>
+            <li><a href="specials.htm">Specials</a></li>
+            <li><a href="orderonline.htm">Order Online</a></li>
+            <li><a href="aboutus.htm">About Us</a></li>
+        </ul>
+    </nav>
+    <section>
+<div style="display: flex; gap: 170px;">
+    <img src="images/menu-closeup.jpg" alt="menu" style="max-width: 200px;">
+    <img src="images/menu.jpg" alt="menu-closeup" style="max-width: 200px;">
+    <img src="images/restaurant-interior.jpg" alt="interior" style="max-width: 200px;">
+    <img src="images/restaurant-table-with-glasses.jpg" alt="table" style="max-width: 200px;">
+</div>
+<form action="submit_reservation.php" method="post">
+    <h2>Make a Reservation</h2>
+<p style="color: white;">
+    <!-- Customer Name -->
+    <label for="first_name">First Name:</label>
+    <input type="text" id="first_name" name="first_name" required><br><br>
+
+    <label for="last_name">Last Name:</label>
+    <input type="text" id="last_name" name="last_name" required><br><br>
+
+    <!-- Phone Number -->
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required><br><br>
+
+    <!-- Email -->
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <!-- Reservation Date -->
+    <label for="month">Month:</label>
+    <select id="month" name="month" required>
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <!-- Add all other months -->
+        <option value="December">December</option>
+    </select>
+
+    <label for="date">Date:</label>
+    <select id="date" name="date" required>
+        <!-- Add date options (1-31) -->
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <!-- Continue adding dates -->
+        <option value="31">31</option>
+    </select>
+
+    <label for="year">Year:</label>
+    <select id="year" name="year" required>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+        <!-- Add more years if needed -->
+    </select><br><br>
+
+    <!-- Reservation Time -->
+    <label for="time">Time:</label>
+    <select id="time" name="time" required>
+        <option value="11:00 AM">11:00 AM</option>
+        <option value="11:30 AM">11:30 AM</option>
+        <!-- Add more time slots within business hours -->
+        <option value="10:00 PM">10:00 PM</option>
+    </select>
+
+    <label for="ampm">AM/PM:</label>
+    <select id="ampm" name="ampm" required>
+        <option value="AM">AM</option>
+        <option value="PM">PM</option>
+    </select><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit Reservation">
+
+</p>
+</form>
+
+<html/>
+
+
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 5: Final Graded Project: HTML Coding</title>
+    <style>
+        .header-info {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-info">
+        <p><strong>Your Name:</strong> Michael Hermosillo</p>
+        <p><strong>Student ID:</strong> AC1909254</p>
+        <p><strong>Lesson Name:</strong> Lesson 5: Final Graded Project: HTML Coding</p>
+        <p><strong>Email Address:</strong> Michael_hermosillo@yahoo.com</p>
+    </div>
+
+</body>
+</html>
